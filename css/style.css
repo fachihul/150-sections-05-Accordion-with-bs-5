@@ -78,13 +78,12 @@ h2.section-title {
   .section-bg-1::after {
     width: 100%;
     opacity: 0.14;
-    background-color: #0a0a0a49 !important;
   }
   h2.section-title {
     font-size: 28px;
     margin-bottom: 0.5rem;
     text-align: center;
-    /* color: #fff; */
+    color: #fff;
   }
   .section-padding {
     padding: 30px 0;
