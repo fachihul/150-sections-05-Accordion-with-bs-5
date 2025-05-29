@@ -77,15 +77,20 @@ h2.section-title {
 @media screen and (max-width: 774px) {
   .section-bg-1::after {
     width: 100%;
-    opacity: 0.1 !important;
+    opacity: 0.5 !important;
+  }
+  h2.section-title {
+    font-size: 28px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color: white;
   }
   .section-padding {
     padding: 30px 0;
     text-align: center;
   }
-  h2.section-title {
-    font-size: 28px;
-    margin-bottom: 0.5rem;
+  .section-bg-1 {
+    text-align: center;
   }
 }
 /* @media screen and (max-width: 576px) {
