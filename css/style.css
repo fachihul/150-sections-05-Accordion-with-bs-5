@@ -3,3 +3,74 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  color: #a9a9a9;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.section-bg-1 {
+  position: relative;
+  min-height: 563px;
+  overflow: hidden;
+}
+.section-padding {
+  /* margin-top: 20px; */
+  padding: 60px 0;
+}
+.section-bg-1::after {
+  background-image: url("https://cdn.pixabay.com/photo/2022/09/08/02/55/pahan-7439926_960_720.jpg");
+  background-size: cover;
+  background-position: center;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 100%;
+  background-color: #ddd;
+  z-index: -1;
+}
+h2.section-title {
+  font-size: 33px;
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.section-title span {
+  color: #570cd1;
+}
+.accordion-button:not(.collapsed) {
+  color: #000000;
+  background-color: #cde1fc;
+  box-shadow: 0 0 0;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.accordion-item:first-of-type {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: var(--bs-accordion-btn-focus-border-color);
+  outline: 0;
+  box-shadow: 0 0 0;
+}
+.accordion-item:last-of-type .accordion-collapse {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.accordion-item:last-of-type {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.styled-faq {
+  min-height: 476px;
+}
