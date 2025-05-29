@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  color: #a9a9a9;
+  color: #3a3a3a;
   font-size: 16px;
   line-height: 1.7;
 }
@@ -27,7 +27,7 @@ body {
   left: 0;
   width: 45%;
   height: 100%;
-  /* background-color: #ddd; */
+  background-color: #0a0a0a49;
   z-index: -1;
 }
 h2.section-title {
@@ -77,12 +77,14 @@ h2.section-title {
 @media screen and (max-width: 774px) {
   .section-bg-1::after {
     width: 100%;
-    background-color: #000000;
+    opacity: 0.14;
+    background-color: #0a0a0a49 !important;
   }
   h2.section-title {
     font-size: 28px;
     margin-bottom: 0.5rem;
     text-align: center;
+    /* color: #fff; */
   }
   .section-padding {
     padding: 30px 0;
